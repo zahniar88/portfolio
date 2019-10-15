@@ -45,3 +45,11 @@
 .offset-top .card {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.22);
 }
+
+.slide-up {
+    visibility: hidden;
+}
+
+.slide-up-one {
+    visibility: hidden;
+}
