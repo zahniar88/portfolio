@@ -1,139 +1,348 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zahniar Adirahman</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- ThirdParty CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="node_modules/devicon/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Nunito&display=swap" rel="stylesheet">
 
-    <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-
-    <!-- myFonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito|Viga&display=swap" rel="stylesheet">
-
-    <!-- MyCSS -->
-    <link rel="stylesheet" href="style.css">
-
-    <title>Zahniar Adirahman | About Me</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
 </head>
 
 <body>
+    <!-- navbar -->
+    <header class="absolute py-4">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand bg-white text-body rounded-pill d-inline-block px-4 py-0" href="#" data-scroll-nav="0">
+                    Zahniar
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbarMenu" aria-controls="mainNavbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbarMenu">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" id="home" data-scroll-nav="0" href="#">Home</a>
+                        <a class="nav-item nav-link" id="skill" data-scroll-nav="1" href="#">Skills</a>
+                        <a class="nav-item nav-link" id="portfolio" data-scroll-nav="2" href="#">Portfolio</a>
+                        <a class="nav-item nav-link" id="contact" data-scroll-nav="3" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end navbar -->
 
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container py-5">
-            <h1 class="display-4">About Me</h1>
-            <p class="lead">MY PERSONAL INFORMATION</p>
+    <!-- banner -->
+    <div class="banner" data-scroll-index="0" id="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <div class="image-me rounded-circle">
+                        <img src="assets/images/me.jpeg" width="150" class="rounded-circle" alt="Zahniar Adirahman">
+                    </div>
+                    <h2 class="display-4 text-white mt-4 mb-0">Zahniar Adirahman</h2>
+                    <p class="lead text-white my-0">Web Developer | Tutor Web Developer | Student</p>
+                    <a href="#" class="btn btn-outline-light rounded-pill px-4 mt-5" data-scroll-nav="1">MORE INFO</a>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- end banner -->
 
-    <div class="container offset-top">
-        <div class="card border-0">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-4 mb-4 slide-up">
-                        <img src="images/me.jpeg" alt="Zahniar Adirahman" class="w-100 shadow">
-                    </div>
-                    <div class="col-md-8 mb-4 slide-up">
-                        <span class="badge badge-success">Hallo</span>
-                        <h2>I'm <span class="font-weight-bold">Zahniar Adirahman</span></h2>
-                        <h5>Web Developer And Tutor Web Developer</h5>
+    <!-- skill -->
+    <section class="skill" data-scroll-index="1">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h3 class="display-5 f-lobster">Skills</h3>
+                </div>
 
-                        <hr>
+                <!-- list skills -->
+                <!-- html -->
+                <div class="col-md-6 mb-4">
+                    <div class="card card-body shadow border-0">
                         <div class="row">
-                            <!-- AGE -->
-                            <div class="col-md-3 mb-3"><strong>AGE</strong></div>
-                            <div class="col-md-9 mb-3">24</div>
+                            <div class="col-lg-2 text-center my-3">
+                                <i class="icon devicon-html5-plain colored"></i>
+                            </div>
+                            <div class="col-lg-10 my-3">
+                                <h4 class="font-weight-bold">HTML</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- css -->
+                <div class="col-md-6 mb-4">
+                    <div class="card card-body shadow border-0">
+                        <div class="row">
+                            <div class="col-lg-2 text-center my-3">
+                                <i class="icon devicon-css3-plain colored"></i>
+                            </div>
+                            <div class="col-lg-10 my-3">
+                                <h4 class="font-weight-bold">CSS</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- bootstrap -->
+                <div class="col-md-6 mb-4">
+                    <div class="card card-body shadow border-0">
+                        <div class="row">
+                            <div class="col-lg-2 text-center my-3">
+                                <i class="icon devicon-bootstrap-plain colored"></i>
+                            </div>
+                            <div class="col-lg-10 my-3">
+                                <h4 class="font-weight-bold">BOOTSTRAP</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- javascript -->
+                <div class="col-md-6 mb-4">
+                    <div class="card card-body shadow border-0">
+                        <div class="row">
+                            <div class="col-lg-2 text-center my-3">
+                                <i class="icon devicon-javascript-plain colored"></i>
+                            </div>
+                            <div class="col-lg-10 my-3">
+                                <h4 class="font-weight-bold">JAVASCRIPT</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- jquery -->
+                <div class="col-md-6 mb-4">
+                    <div class="card card-body shadow border-0">
+                        <div class="row">
+                            <div class="col-lg-2 text-center my-3">
+                                <i class="icon devicon-jquery-plain colored"></i>
+                            </div>
+                            <div class="col-lg-10 my-3">
+                                <h4 class="font-weight-bold">JQUERY</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- php -->
+                <div class="col-md-6 mb-4">
+                    <div class="card card-body shadow border-0">
+                        <div class="row">
+                            <div class="col-lg-2 text-center my-3">
+                                <i class="icon devicon-php-plain colored"></i>
+                            </div>
+                            <div class="col-lg-10 my-3">
+                                <h4 class="font-weight-bold">PHP</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- mysql -->
+                <div class="col-md-6 mb-4">
+                    <div class="card card-body shadow border-0">
+                        <div class="row">
+                            <div class="col-lg-2 text-center my-3">
+                                <i class="icon devicon-mysql-plain colored"></i>
+                            </div>
+                            <div class="col-lg-10 my-3">
+                                <h4 class="font-weight-bold">MYSQL</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- git -->
+                <div class="col-md-6 mb-4">
+                    <div class="card card-body shadow border-0">
+                        <div class="row">
+                            <div class="col-lg-2 text-center my-3">
+                                <i class="icon devicon-git-plain colored"></i>
+                            </div>
+                            <div class="col-lg-10 my-3">
+                                <h4 class="font-weight-bold">GIT</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CodeIgniter -->
+                <div class="col-md-6 mb-4">
+                    <div class="card card-body shadow border-0">
+                        <div class="row">
+                            <div class="col-lg-2 text-center my-3">
+                                <i class="icon devicon-codeigniter-plain colored"></i>
+                            </div>
+                            <div class="col-lg-10 my-3">
+                                <h4 class="font-weight-bold">CODEIGNITER</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Laravel -->
+                <div class="col-md-6 mb-4">
+                    <div class="card card-body shadow border-0">
+                        <div class="row">
+                            <div class="col-lg-2 text-center my-3">
+                                <i class="icon devicon-laravel-plain colored"></i>
+                            </div>
+                            <div class="col-lg-10 my-3">
+                                <h4 class="font-weight-bold">LARAVEL</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end list skills -->
+            </div>
+        </div>
+    </section>
+    <!-- end skill -->
 
-                            <!-- ADDRESS -->
-                            <div class="col-md-3 mb-3"><strong>ADDRESS</strong></div>
-                            <div class="col-md-9 mb-3">Ds. Karya Mukti Batumarta XII Blok P, Sinar Peninjauan, Ogan Komering Ulu, SUMSEL 32191</div>
+    <div class="divider-page"></div>
 
-                            <!-- EMAIL -->
-                            <div class="col-md-3 mb-3"><strong>EMAIL</strong></div>
-                            <div class="col-md-9 mb-3">zahniar88@gmail.com</div>
+    <!-- portfolio -->
+    <section class="portfolio" data-scroll-index="2">
+        <div class="container py-5">
+            <div class="row mb-5">
+                <div class="col-md-12 text-center">
+                    <h3 class="f-lobster display-5">Portfolio</h3>
+                </div>
+            </div>
 
-                            <!-- PHONE -->
-                            <div class="col-md-3 mb-3"><strong>PHONE</strong></div>
-                            <div class="col-md-9 mb-3">+6281379703295</div>
+            <!-- list portfolio -->
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-4">
+                    <img src="assets/images/first.png" class="w-100" alt="">
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <h3 class="font-weight-bold display-5 mb-4">Zahniar Space</h3>
+                    <blockquote class="blockquote">
+                        <p class="mb-3 text-secondary">
+                            Zahniar Space adalah project yang saya online kan pertama kali untuk keperluan registrasi belajar web developer dan kumpulan artikel tentang website developer dan beberapa ilmu pengetahuan lainnya.
+                            <a href="http://zahniar.space">Zahniar Space</a>
+                        </p>
+                        <footer class="blockquote-footer">
+                            Zahniar Adirahman
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-4">
+                    <img src="assets/images/second.png" class="w-100" alt="">
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <h3 class="font-weight-bold display-5 mb-4">Forum AKMI</h3>
+                    <blockquote class="blockquote">
+                        <p class="mb-3 text-secondary">
+                            Forum AKMI merupakan website forum diskusi online bagi mahasiswa kampus AMIK AKMI Baturaja. Merupakan forum yang saya jadikan tugas akhir kuliah saya.
+                        </p>
+                        <footer class="blockquote-footer">
+                            Zahniar Adirahman
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+            <!-- end list portfolio -->
+        </div>
+    </section>
+    <!-- end portfolio -->
 
-                            <!-- SKILL -->
-                            <div class="col-md-3 mb-3"><strong>SKILLS</strong></div>
-                            <div class="col-md-9 mb-3">Laravel & Bootstap</div>
+    <div class="divider-page"></div>
+
+    <!-- contact -->
+    <section class="contact" data-scroll-index="3">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h3 class="f-lobster display-5">Contact</h3>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <!-- Phone Number -->
+                                <div class="col-md-5 mb-4"><span class="font-weight-bold">Phone Number</span></div>
+                                <div class="col-md-5 mb-4">+6281379703295</div>
+                                <!-- end phone number -->
+                                <!-- email -->
+                                <div class="col-md-5 mb-4"><span class="font-weight-bold">Email</span></div>
+                                <div class="col-md-5 mb-4">zahniar88@gmail.com</div>
+                                <!-- end email -->
+                                <!-- github -->
+                                <div class="col-md-5 mb-4"><span class="font-weight-bold">Github</span></div>
+                                <div class="col-md-5 mb-4"><a href="https://github.com/zahniar88" class="text-body">zahniar88</a></div>
+                                <!-- end github -->
+                                <!-- facebook -->
+                                <div class="col-md-5 mb-4"><span class="font-weight-bold">Facebook</span></div>
+                                <div class="col-md-5 mb-4"><a href="https://www.facebook.com/zahniar.adirahman.5" class="text-body">Zahniar Adirahman</a></div>
+                                <!-- end facebook -->
+                                <!-- instagram -->
+                                <div class="col-md-5 mb-4"><span class="font-weight-bold">Instagram</span></div>
+                                <div class="col-md-5 mb-4"><a href="https://instagram.com/zahniar.space" class="text-body">@zahniar.space</a></div>
+                                <!-- end instagram -->
+                                <!-- twitter -->
+                                <div class="col-md-5 mb-4"><span class="font-weight-bold">Twitter</span></div>
+                                <div class="col-md-5 mb-4"><a href="https://twitter.com/zahniarspace" class="text-body">@zahniar.space</a></div>
+                                <!-- end twitter -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card-footer bg-teal">
-                <div class="d-flex justify-content-between">
-                    <a href="https://www.facebook.com/zahniar.adirahman.5" class="text-white slide-up-one" title="Facebook" target="_blank">
-                        <i class="fab fa-facebook-square fa-2x"></i>
-                    </a>
-                    <a href="https://www.instagram.com/zahniar.space/" class="text-white slide-up-one" title="Instagram" target="_blank">
-                        <i class="fab fa-instagram fa-2x"></i>
-                    </a>
-                    <a href="https://twitter.com/zahniarspace" class="text-white slide-up-one" title="Twitter" target="_blank">
-                        <i class="fab fa-twitter fa-2x"></i>
-                    </a>
-                    <a href="https://github.com/zahniar88" class="text-white slide-up-one" title="Github" target="_blank">
-                        <i class="fab fa-github fa-2x"></i>
-                    </a>
-                </div>
-            </div>
         </div>
-    </div>
+    </section>
+    <!-- end contact -->
 
-    <div class="container my-5">
-        <div class="card border-0 shadow">
-            <div class="card-header bg-teal text-white">
-                <h3 class="m-0">Data Skill</h3>
-            </div>
-            <div class="card-body">
-                <!-- Codeigniter -->
-                <div class="mb-4 slide-up-one">
-                    <label>Codeigniter</label>
-                    <div class="progress">
-                        <div class="progress-bar bg-danger" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
-                    </div>
-                </div>
+    <!-- footer -->
+    <footer class="py-5 text-center bg-dark text-white">
+        Copyright &copy; 2019 By Zahniar Adirahman.
+    </footer>
+    <!-- end footer -->
 
-                <!-- Laravel -->
-                <div class="mb-4 slide-up-one">
-                    <label>Laravel</label>
-                    <div class="progress">
-                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-                    </div>
-                </div>
-
-                <!-- Bootstap -->
-                <div class="mb-4 slide-up-one">
-                    <label>Bootstrap</label>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-                    </div>
-                </div>
-
-                <!-- jQuery -->
-                <div class="mb-4 slide-up-one">
-                    <label>jQuery</label>
-                    <div class="progress">
-                        <div class="progress-bar bg-info" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="app.js"></script>
+    <!-- ThirdParty JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" charset="utf-8"></script>
+    <script src="assets/js/scrollIt.min.js"></script>
+    <!-- My JS -->
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
